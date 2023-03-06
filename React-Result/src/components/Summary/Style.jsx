@@ -10,6 +10,15 @@ export const BoxSummary = styled.div`
     flex-direction:column;
     padding:2em 1.5em;
     border-radius: 1em;
+
+    @media screen and (max-width:800px){
+        width:80%;
+
+        position:static;
+        border-radius: 0 0 .5em .5em ;
+    }
+      
+
 `
 
 export const Title = styled.h2`

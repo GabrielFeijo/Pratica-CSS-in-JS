@@ -1,11 +1,16 @@
 .App {
-  background-color: hsl(221, 100%, 96%);
-  height: 100vh;
   display: flex;
+  height: 100vh;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
- 
+}
+
+@media screen and (max-width:800px){
+  .App{
+    flex-direction: column;
+  }
+  
 }
 

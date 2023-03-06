@@ -11,6 +11,14 @@ export const ResultBox = styled.div`
     align-items:center;
     padding: 2em;
     border-radius: 1em;
+    
+
+    @media screen and (max-width:800px){
+        width:80%;
+        position:static;
+        border-radius: .5em .5em  0 0;
+    }
+      
 `;
 
 export const Title = styled.h1`
